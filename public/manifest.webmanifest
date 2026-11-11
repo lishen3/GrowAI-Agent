@@ -1,0 +1,26 @@
+{
+  "name": "GrowAI智能体",
+  "short_name": "GrowAI智能体",
+  "description": "从大学阶段开始，持续记录目标、阶段与成长。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F4F2EB",
+  "theme_color": "#F4F2EB",
+  "icons": [
+    {
+      "src": "/icons/growai-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/growai-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "GrowAI智能体",
+    "slug": "grow-ai",
+    "orientation": "portrait",
+    "scheme": "growai",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.growai.mobile"
+    },
+    "android": {
+      "package": "com.growai.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F2EB"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./public/icons/growai-icon-192.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a09f903a-00b6-4e35-8a62-42049ccbb938"
+      }
+    }
+  }
+}

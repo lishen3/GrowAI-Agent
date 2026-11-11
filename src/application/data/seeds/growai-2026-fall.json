@@ -1,0 +1,1021 @@
+{
+  "schemaVersion": 1,
+  "generatedFor": "GrowAI",
+  "period": {
+    "id": "period_2026_fall",
+    "name": "大三上",
+    "type": "SEMESTER",
+    "startDate": "2026-08-30",
+    "endDate": "2026-12-30",
+    "totalTeachingWeeks": 16,
+    "status": "ACTIVE",
+    "description": "大三上核心阶段：英语四级、AI专业能力、GrowAI项目、日常实习、学校课程与健身。"
+  },
+
+  "longTermGoals": [
+    {
+      "id": "ltg_english",
+      "title": "真正具备英语使用能力",
+      "category": "ENGLISH",
+      "priority": "S",
+      "status": "ACTIVE",
+      "startDate": "2026-08-30",
+      "targetDescription": "毕业时能够听懂正常英语交流，较流畅地表达自己的想法，能够进行日常英语沟通，阅读英文技术资料、观看英文技术内容，并具备基础工作英语沟通能力。",
+      "principles": [
+        "英语是长期目标，不因四级考试结束而停止",
+        "考试英语与真实听说能力同时发展",
+        "保持长期、稳定、低中断学习",
+        "优先形成听力和口语真实使用能力"
+      ]
+    },
+    {
+      "id": "ltg_ai_career",
+      "title": "具备AI应用开发能力",
+      "category": "PROFESSIONAL",
+      "priority": "S",
+      "status": "ACTIVE",
+      "startDate": "2026-08-30",
+      "targetDescription": "毕业前具备独立开发AI应用的能力，掌握Python、数据库、API、后端、LLM、Tool Calling、Agent、RAG、Memory、Evaluation及基础工程化，并能够独立讲清项目架构和技术决策。"
+    },
+    {
+      "id": "ltg_project_portfolio",
+      "title": "建立有竞争力的AI项目作品集",
+      "category": "PROJECT",
+      "priority": "A",
+      "status": "ACTIVE",
+      "startDate": "2026-08-30",
+      "targetDescription": "持续完成能够真实使用、能够展示技术能力和产品能力的AI项目。第一核心项目为GrowAI Personal Growth Agent，寒假后规划RepoMind Codebase Agent。"
+    },
+    {
+      "id": "ltg_career",
+      "title": "形成明确的AI职业方向并积累实习经历",
+      "category": "CAREER",
+      "priority": "A",
+      "status": "ACTIVE",
+      "startDate": "2026-08-30",
+      "targetDescription": "通过真实项目、岗位JD、面试和实习逐渐判断AI应用开发、Agent开发与AI产品等方向，毕业前积累能够写入简历的真实实习经历。"
+    },
+    {
+      "id": "ltg_fitness",
+      "title": "长期保持健身与良好身体状态",
+      "category": "FITNESS",
+      "priority": "B",
+      "status": "ACTIVE",
+      "startDate": "2026-08-30",
+      "targetDescription": "保持稳定健身习惯，以健康、体能、精神状态和长期可持续为目标，不让健身与学习、睡眠和课程产生严重冲突。"
+    }
+  ],
+
+  "periodGoals": [
+    {
+      "id": "pg_cet4",
+      "periodId": "period_2026_fall",
+      "longTermGoalId": "ltg_english",
+      "title": "完成英语四级备考并参加CET-4",
+      "category": "ENGLISH",
+      "priority": "S",
+      "status": "ACTIVE",
+      "targetDescription": "从接近零基础开始建立词汇、语法、长句、听力和阅读基础，逐步进入四级真题训练，同时每天保留真实听力和跟读训练。",
+      "successCriteria": [
+        "形成稳定英语学习习惯",
+        "完成四级核心词汇学习与持续复习",
+        "掌握基础语法和长句分析",
+        "建立听力训练习惯",
+        "进入四级真题训练",
+        "参加本学期CET-4考试"
+      ]
+    },
+    {
+      "id": "pg_growai",
+      "periodId": "period_2026_fall",
+      "longTermGoalId": "ltg_project_portfolio",
+      "title": "完成GrowAI大三上核心版本",
+      "category": "PROJECT",
+      "priority": "S",
+      "status": "ACTIVE",
+      "targetDescription": "先完成可靠的任务执行与Achievement闭环，再逐步增加FastAPI后端和基础AI Agent能力。禁止为了技术栈数量跳过基础工程。",
+      "successCriteria": [
+        "PeriodGoal和WeeklyGoal可真实使用",
+        "Task、TaskExecution、Achievement闭环可运行",
+        "Today页面显示真实任务和今日成果",
+        "Weekly Schedule可查看本周安排",
+        "Weekly Review基于真实数据生成",
+        "建立Git提交历史",
+        "建立基础测试",
+        "完成FastAPI基础后端",
+        "时间允许时实现基础LLM与Tool Calling"
+      ]
+    },
+    {
+      "id": "pg_ai_foundation",
+      "periodId": "period_2026_fall",
+      "longTermGoalId": "ltg_ai_career",
+      "title": "建立AI应用开发基础技术栈",
+      "category": "PROFESSIONAL",
+      "priority": "A",
+      "status": "ACTIVE",
+      "targetDescription": "采用Just-in-Time Learning方式，项目需要什么就学习什么，并立即应用到GrowAI。",
+      "learningPath": [
+        "Python",
+        "Git",
+        "GitHub",
+        "SQL",
+        "SQLite",
+        "Database",
+        "HTTP",
+        "API",
+        "FastAPI",
+        "Testing",
+        "LLM",
+        "Prompt Engineering",
+        "Structured Output",
+        "Tool Calling",
+        "Agent",
+        "RAG",
+        "Memory",
+        "Evaluation"
+      ]
+    },
+    {
+      "id": "pg_internship",
+      "periodId": "period_2026_fall",
+      "longTermGoalId": "ltg_career",
+      "title": "寻找并争取一段AI相关日常实习",
+      "category": "INTERNSHIP",
+      "priority": "A",
+      "status": "ACTIVE",
+      "targetDescription": "重点关注AI应用开发、大模型应用、Agent开发及部分AI产品岗位。先通过真实JD了解市场，再进行简历、投递、面试和实习。",
+      "successCriteria": [
+        "完成简历V1",
+        "建立目标岗位池",
+        "持续记录岗位要求",
+        "开始真实投递",
+        "完成面试准备",
+        "争取获得AI相关实习",
+        "如进入实习则记录真实工作成果"
+      ]
+    },
+    {
+      "id": "pg_courses",
+      "periodId": "period_2026_fall",
+      "title": "保证学校课程正常完成",
+      "category": "COURSE",
+      "priority": "S",
+      "status": "ACTIVE",
+      "targetDescription": "课程属于Locked Time，不允许GrowAI项目、实习或额外学习覆盖正常上课和重要课程DDL。"
+    },
+    {
+      "id": "pg_fitness",
+      "periodId": "period_2026_fall",
+      "longTermGoalId": "ltg_fitness",
+      "title": "保持每周稳定健身",
+      "category": "FITNESS",
+      "priority": "B",
+      "status": "ACTIVE",
+      "targetDescription": "普通周目标约3次，每次约60至90分钟；考试或明显过载时允许降到2次。"
+    }
+  ],
+
+  "weeklyPlans": [
+    {
+      "weekNumber": 1,
+      "startDate": "2026-08-30",
+      "endDate": "2026-09-05",
+      "theme": "启动周：建立真正可执行的系统",
+      "goals": [
+        {
+          "id": "wg_01_english",
+          "periodGoalId": "pg_cet4",
+          "title": "建立英语每日学习习惯",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 7,
+          "targetUnit": "DAYS",
+          "status": "ACTIVE",
+          "description": "每天60至90分钟。词汇、基础语法/长句、听力跟读为主。"
+        },
+        {
+          "id": "wg_01_growai",
+          "periodGoalId": "pg_growai",
+          "title": "完成GrowAI V0.1执行层设计",
+          "category": "PROJECT",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "ACTIVE",
+          "description": "明确PeriodGoal、WeeklyGoal、Task、TaskExecution、Achievement数据关系及开发顺序。"
+        },
+        {
+          "id": "wg_01_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "开始Python与Git基础",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "ACTIVE",
+          "description": "Python基础语法、函数、列表、字典；理解Git repository、commit、push。"
+        },
+        {
+          "id": "wg_01_job",
+          "periodGoalId": "pg_internship",
+          "title": "建立第一批AI实习岗位池",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 15,
+          "targetUnit": "JOBS",
+          "status": "ACTIVE",
+          "description": "先收集和分析JD，不追求海投。"
+        },
+        {
+          "id": "wg_01_fitness",
+          "periodGoalId": "pg_fitness",
+          "title": "完成3次健身",
+          "category": "FITNESS",
+          "priority": "B",
+          "targetValue": 3,
+          "targetUnit": "SESSIONS",
+          "status": "ACTIVE"
+        },
+        {
+          "id": "wg_01_course",
+          "periodGoalId": "pg_courses",
+          "title": "完成本周所有课程与紧急DDL",
+          "category": "COURSE",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "BOOLEAN",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 2,
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-12",
+      "theme": "任务闭环周",
+      "goals": [
+        {
+          "id": "wg_02_english",
+          "periodGoalId": "pg_cet4",
+          "title": "英语学习不少于9小时",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 540,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_02_growai",
+          "periodGoalId": "pg_growai",
+          "title": "跑通Task到Achievement核心闭环",
+          "category": "PROJECT",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED",
+          "description": "创建Task→开始→完成→TaskExecution→Achievement。"
+        },
+        {
+          "id": "wg_02_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "学习SQLite、SQL与数据库基础",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 300,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_02_job",
+          "periodGoalId": "pg_internship",
+          "title": "完成简历V1并开始投递",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_02_fitness",
+          "periodGoalId": "pg_fitness",
+          "title": "完成3次健身",
+          "category": "FITNESS",
+          "priority": "B",
+          "targetValue": 3,
+          "targetUnit": "SESSIONS",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 3,
+      "startDate": "2026-09-13",
+      "endDate": "2026-09-19",
+      "theme": "Today真正可用",
+      "goals": [
+        {
+          "id": "wg_03_english",
+          "periodGoalId": "pg_cet4",
+          "title": "英语保持7天不断线并开始长句训练",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 630,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_03_growai",
+          "periodGoalId": "pg_growai",
+          "title": "Today页面接入真实Task和Achievement",
+          "category": "PROJECT",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_03_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "完成基础CRUD与Repository理解",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 300,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_03_job",
+          "periodGoalId": "pg_internship",
+          "title": "完成至少5次有效岗位投递或沟通",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 5,
+          "targetUnit": "APPLICATIONS_OR_CHATS",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_03_fitness",
+          "periodGoalId": "pg_fitness",
+          "title": "完成3次健身",
+          "category": "FITNESS",
+          "priority": "B",
+          "targetValue": 3,
+          "targetUnit": "SESSIONS",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 4,
+      "startDate": "2026-09-20",
+      "endDate": "2026-09-26",
+      "theme": "课表与时间安排",
+      "goals": [
+        {
+          "id": "wg_04_english",
+          "periodGoalId": "pg_cet4",
+          "title": "保持英语学习并开始四级阅读基础",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 600,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_04_growai",
+          "periodGoalId": "pg_growai",
+          "title": "完成Course与Weekly Schedule基础版本",
+          "category": "PROJECT",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_04_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "学习HTTP与API基础概念",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_04_job",
+          "periodGoalId": "pg_internship",
+          "title": "继续投递并准备常见面试问题",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 5,
+          "targetUnit": "APPLICATIONS_OR_CHATS",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_04_fitness",
+          "periodGoalId": "pg_fitness",
+          "title": "完成3次健身",
+          "category": "FITNESS",
+          "priority": "B",
+          "targetValue": 3,
+          "targetUnit": "SESSIONS",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 5,
+      "startDate": "2026-09-27",
+      "endDate": "2026-10-03",
+      "theme": "完成GrowAI V0.1",
+      "goals": [
+        {
+          "id": "wg_05_english",
+          "periodGoalId": "pg_cet4",
+          "title": "保持英语并开始四级题型训练",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 600,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_05_growai",
+          "periodGoalId": "pg_growai",
+          "title": "完成Weekly Review并形成GrowAI V0.1",
+          "category": "PROJECT",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_05_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "学习FastAPI基础",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_05_job",
+          "periodGoalId": "pg_internship",
+          "title": "持续投递并争取进入面试",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "INTERVIEW_PROGRESS",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_05_fitness",
+          "periodGoalId": "pg_fitness",
+          "title": "完成3次健身",
+          "category": "FITNESS",
+          "priority": "B",
+          "targetValue": 3,
+          "targetUnit": "SESSIONS",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 6,
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-10",
+      "theme": "后端入门",
+      "goals": [
+        {
+          "id": "wg_06_english",
+          "periodGoalId": "pg_cet4",
+          "title": "英语保持8小时以上",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 480,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_06_growai",
+          "periodGoalId": "pg_growai",
+          "title": "建立FastAPI后端基础工程",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_06_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "理解REST API、Request与Response",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_06_job",
+          "periodGoalId": "pg_internship",
+          "title": "实习优先：工作或继续求职推进",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "WEEKLY_PROGRESS",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_06_fitness",
+          "periodGoalId": "pg_fitness",
+          "title": "完成3次健身",
+          "category": "FITNESS",
+          "priority": "B",
+          "targetValue": 3,
+          "targetUnit": "SESSIONS",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 7,
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-17",
+      "theme": "前后端连接",
+      "goals": [
+        {
+          "id": "wg_07_english",
+          "periodGoalId": "pg_cet4",
+          "title": "四级听力与阅读持续训练",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 480,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_07_growai",
+          "periodGoalId": "pg_growai",
+          "title": "完成第一批FastAPI接口并连接GrowAI",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_07_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "学习后端分层与基础测试",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_07_job",
+          "periodGoalId": "pg_internship",
+          "title": "记录实习成果或继续面试求职",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "WEEKLY_PROGRESS",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 8,
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-24",
+      "theme": "第一次接触LLM",
+      "goals": [
+        {
+          "id": "wg_08_english",
+          "periodGoalId": "pg_cet4",
+          "title": "完成一次四级阶段检测",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "ASSESSMENT",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_08_growai",
+          "periodGoalId": "pg_growai",
+          "title": "GrowAI接入第一个基础LLM能力",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_08_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "理解LLM API和Prompt基础",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_08_job",
+          "periodGoalId": "pg_internship",
+          "title": "形成至少1条真实实习或求职Achievement",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "ACHIEVEMENT",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 9,
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-31",
+      "theme": "让AI输出稳定数据",
+      "goals": [
+        {
+          "id": "wg_09_english",
+          "periodGoalId": "pg_cet4",
+          "title": "持续四级听力、阅读和词汇",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 480,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_09_growai",
+          "periodGoalId": "pg_growai",
+          "title": "实现Structured Output基础能力",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_09_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "学习Prompt Engineering和Structured Output",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 10,
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-07",
+      "theme": "Tool Calling",
+      "goals": [
+        {
+          "id": "wg_10_english",
+          "periodGoalId": "pg_cet4",
+          "title": "进入稳定四级专项训练",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 480,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_10_growai",
+          "periodGoalId": "pg_growai",
+          "title": "实现第一批Tool Calling",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED",
+          "description": "优先get_tasks、get_goals、get_today_schedule等只读Tool。"
+        },
+        {
+          "id": "wg_10_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "真正理解Tool Calling",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 11,
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-14",
+      "theme": "基础Personal Growth Agent",
+      "goals": [
+        {
+          "id": "wg_11_english",
+          "periodGoalId": "pg_cet4",
+          "title": "四级训练保持稳定",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 480,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_11_growai",
+          "periodGoalId": "pg_growai",
+          "title": "实现基础Growth Agent工作流",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_11_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "理解Agent、Tool、Observation与执行循环",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 12,
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-21",
+      "theme": "RAG入门",
+      "goals": [
+        {
+          "id": "wg_12_english",
+          "periodGoalId": "pg_cet4",
+          "title": "提高四级真题训练比例",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 540,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_12_growai",
+          "periodGoalId": "pg_growai",
+          "title": "完成Achievement历史检索原型",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_12_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "学习RAG、Embedding和Retrieval基础",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 240,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 13,
+      "startDate": "2026-11-22",
+      "endDate": "2026-11-28",
+      "theme": "Memory基础",
+      "goals": [
+        {
+          "id": "wg_13_english",
+          "periodGoalId": "pg_cet4",
+          "title": "保持高频四级训练",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 540,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_13_growai",
+          "periodGoalId": "pg_growai",
+          "title": "完成基础Memory设计或原型",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "MILESTONE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_13_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "理解短期记忆与长期记忆区别",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 180,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 14,
+      "startDate": "2026-11-29",
+      "endDate": "2026-12-05",
+      "theme": "Evaluation与项目收口",
+      "goals": [
+        {
+          "id": "wg_14_english",
+          "periodGoalId": "pg_cet4",
+          "title": "四级冲刺训练",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 600,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_14_growai",
+          "periodGoalId": "pg_growai",
+          "title": "建立第一批Agent Evaluation测试集",
+          "category": "PROJECT",
+          "priority": "A",
+          "targetValue": 30,
+          "targetUnit": "EVAL_CASES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_14_ai",
+          "periodGoalId": "pg_ai_foundation",
+          "title": "理解Evaluation与Bad Case",
+          "category": "PROFESSIONAL",
+          "priority": "A",
+          "targetValue": 180,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_14_internship",
+          "periodGoalId": "pg_internship",
+          "title": "整理本阶段实习或求职成果",
+          "category": "INTERNSHIP",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "REVIEW",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 15,
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-12",
+      "theme": "四级与期末优先",
+      "goals": [
+        {
+          "id": "wg_15_english",
+          "periodGoalId": "pg_cet4",
+          "title": "CET-4冲刺与查漏补缺",
+          "category": "ENGLISH",
+          "priority": "S",
+          "targetValue": 720,
+          "targetUnit": "MINUTES",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_15_course",
+          "periodGoalId": "pg_courses",
+          "title": "进入课程考试复习模式",
+          "category": "COURSE",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "BOOLEAN",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_15_growai",
+          "periodGoalId": "pg_growai",
+          "title": "GrowAI仅修Bug、README和Demo整理",
+          "category": "PROJECT",
+          "priority": "B",
+          "targetValue": 1,
+          "targetUnit": "MAINTENANCE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_15_fitness",
+          "periodGoalId": "pg_fitness",
+          "title": "保持2次轻量健身",
+          "category": "FITNESS",
+          "priority": "B",
+          "targetValue": 2,
+          "targetUnit": "SESSIONS",
+          "status": "PLANNED"
+        }
+      ]
+    },
+
+    {
+      "weekNumber": 16,
+      "startDate": "2026-12-13",
+      "endDate": "2026-12-19",
+      "theme": "考试周：停止扩张",
+      "goals": [
+        {
+          "id": "wg_16_course",
+          "periodGoalId": "pg_courses",
+          "title": "学校考试与课程任务最高优先级",
+          "category": "COURSE",
+          "priority": "S",
+          "targetValue": 1,
+          "targetUnit": "BOOLEAN",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_16_english",
+          "periodGoalId": "pg_cet4",
+          "title": "根据CET-4实际考试进度完成最后训练或转入长期英语",
+          "category": "ENGLISH",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "TRANSITION",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_16_growai",
+          "periodGoalId": "pg_growai",
+          "title": "冻结新功能，仅处理必要问题",
+          "category": "PROJECT",
+          "priority": "C",
+          "targetValue": 1,
+          "targetUnit": "FREEZE",
+          "status": "PLANNED"
+        },
+        {
+          "id": "wg_16_review",
+          "periodGoalId": "pg_growai",
+          "title": "生成大三上阶段总结",
+          "category": "REVIEW",
+          "priority": "A",
+          "targetValue": 1,
+          "targetUnit": "PERIOD_REVIEW",
+          "status": "PLANNED"
+        }
+      ]
+    }
+  ],
+
+  "adaptiveRules": [
+    {
+      "id": "rule_course_first",
+      "description": "学校课程和近期DDL属于Locked Priority，不被项目、健身或额外学习覆盖。"
+    },
+    {
+      "id": "rule_english_minimum",
+      "description": "普通情况下英语每天保持学习。极忙日允许降低至30至45分钟，而不是直接取消。"
+    },
+    {
+      "id": "rule_internship_mode",
+      "description": "如果正式进入日常实习，专业学习和GrowAI项目时间自动降低，工作日晚上优先英语和恢复。"
+    },
+    {
+      "id": "rule_project_priority",
+      "description": "GrowAI必须先保证V0.1基础闭环稳定，再进入LLM、Agent、RAG和Memory。"
+    },
+    {
+      "id": "rule_no_overload",
+      "description": "单日最多安排3个高认知任务。课程较多时只保留英语和一个核心任务。"
+    },
+    {
+      "id": "rule_fitness",
+      "description": "正常周健身3次；四级冲刺、考试或严重过载周允许降低到2次。"
+    },
+    {
+      "id": "rule_ai_learning",
+      "description": "专业学习遵循Learned→Practiced→Applied→Built，不把单纯观看教程视为最终Achievement。"
+    }
+  ]
+}

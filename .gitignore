@@ -1,0 +1,43 @@
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+*.log
+.DS_Store
+expo-env.d.ts
+.chrome-profile*/
+.chrome-debug*/
+.edge-profile/
+artifacts/
+backend/.env
+backend/.venv/
+backend/.pytest_cache/
+backend/pytest-cache-files-*/
+backend/**/__pycache__/
+.env
+.codex-tmp/
+.env.*
+!.env.example
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+pytest-cache-files-*/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Local data and private credentials; never release user databases.
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.p12
+
+# Private backend recovery cache, including SQLite journal sidecars.
+/backend/.local-state/
